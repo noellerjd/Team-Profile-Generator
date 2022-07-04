@@ -1,5 +1,77 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+:root{
+    --red: #ef233c;
+    --white: #edf2f4;
+    --blue: #8d99ae;
+    --darkblue: #2b2d42;
+    --dosis: 'Dosis', sans-serif;
+}
+
+body{
+    font-family: var(--dosis);
+    background-color: var(--white);
+}
+/* Nav */
+.header {
+    padding: 30px;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.teamname{
+    color: var(--white);
+    text-shadow: 2px 3px #2b2d42;
+}
+/* Card */
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px #2b2d42;
+    margin: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+.cardheader{
+    background-color: var(--blue);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+}
+.cardbody{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.tile{
+    border: 1px solid var(--blue);
+    /* margin: 5px; */
+    padding: 5px;
+}
+.tile:first-of-type{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tile:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
