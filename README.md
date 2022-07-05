@@ -8,8 +8,6 @@ My motivation behind this project was to create something that would allow users
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
