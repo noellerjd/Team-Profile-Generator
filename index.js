@@ -29,8 +29,8 @@ const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, me
                 </div>
                 <div class="cardbody">
                     <div class="tile"><p>ID: ${member1_ID}</p></div>
-                    <div class="tile">Email: <a href="mailto:${member1_email}">${member1_email}</a></div>
-                    <div class="tile">Github: <a href="https://github.com/${member1_github}">${member1_github}</a></div>
+                    <div class="tile">Email: <a href="mailto:${member1_email}" target="_blank">${member1_email}</a></div>
+                    <div class="tile">Github: <a href="https://github.com/${member1_github}" target="_blank">${member1_github}</a></div>
                 </div>
             </div>
         </div>
@@ -42,8 +42,8 @@ const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, me
                 </div>
                 <div class="cardbody">
                     <div class="tile"><p>ID: ${member2_ID}</p></div>
-                    <div class="tile">Email: <a href="mailto:${member2_email}">${member2_email}</a></div>
-                    <div class="tile">Github: <a href="https://github.com/${member2_github}">${member2_github}</a></div>
+                    <div class="tile">Email: <a href="mailto:${member2_email}" target="_blank">${member2_email}</a></div>
+                    <div class="tile">Github: <a href="https://github.com/${member2_github}" target="_blank">${member2_github}</a></div>
                 </div>
             </div>
         </div>
@@ -55,8 +55,8 @@ const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, me
                 </div>
                 <div class="cardbody">
                     <div class="tile"><p>ID: ${member3_ID}</p></div>
-                    <div class="tile">Email: <a href="mailto:${member3_email}">${member3_email}</a></div>
-                    <div class="tile">Github: <a href="https://github.com/${member3_github}">${member3_github}</a></div>
+                    <div class="tile">Email: <a href="mailto:${member3_email}" target="_blank">${member3_email}</a></div>
+                    <div class="tile">Github: <a href="https://github.com/${member3_github}" target="_blank">${member3_github}</a></div>
                 </div>
             </div>
         </div>
@@ -68,8 +68,8 @@ const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, me
                 </div>
                 <div class="cardbody">
                     <div class="tile"><p>ID: ${member4_ID}</p></div>
-                    <div class="tile">Email: <a href="mailto:${member4_email}">${member4_email}</a></div>
-                    <div class="tile">Github: <a href="https://github.com/${member4_github}">${member4_github}</a></div>
+                    <div class="tile">Email: <a href="mailto:${member4_email}" target="_blank">${member4_email}</a></div>
+                    <div class="tile">Github: <a href="https://github.com/${member4_github}" target="_blank">${member4_github}</a></div>
                 </div>
             </div>
         </div>
@@ -81,8 +81,8 @@ const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, me
                 </div>
                 <div class="cardbody">
                     <div class="tile"><p>ID: ${member5_ID}</p></div>
-                    <div class="tile">Email: <a href="mailto:${member5_email}">${member5_email}</a></div>
-                    <div class="tile">Github: <a href="https://github.com/${member5_github}">${member5_github}</a></div>
+                    <div class="tile">Email: <a href="mailto:${member5_email}" target="_blank">${member5_email}</a></div>
+                    <div class="tile">Github: <a href="https://github.com/${member5_github}" target="_blank">${member5_github}</a></div>
                 </div>
             </div>
         </div>
