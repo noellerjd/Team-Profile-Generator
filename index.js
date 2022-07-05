@@ -1,4 +1,4 @@
-const inquirer = rquire ('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs');
 
 const html_base =({project_title, member1_name, member1_jobtitle, member1_ID, member1_email, member1_github, member2_name, member2_jobtitle, member2_ID, member2_email, member2_github, member3_name, member3_jobtitle, member3_ID, member3_email, member3_github, member4_name, member4_jobtitle, member4_ID, member4_email, member4_github, member5_name, member5_jobtitle, member5_ID, member5_email, member5_github}) => `
@@ -229,7 +229,7 @@ init = () => {
             type: 'input',
             name: 'member5_github',
             message: `Please enter the team member's github username`
-        }
+        },
     ])
     .then((data) => {
         const htmlConstruct = html_base(data)
@@ -237,4 +237,6 @@ init = () => {
             err ? console.error(err) : console.log('Generating Team Profile')
         })
     })
-}
+};
+
+init();
