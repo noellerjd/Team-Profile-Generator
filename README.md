@@ -2,6 +2,8 @@
 
 ## Description
 
+![image](https://user-images.githubusercontent.com/50307506/177438832-00055dda-078f-4959-bf0b-70f46b628bd5.png)
+
 My motivation behind this project was to create something that would allow users to generate a site page that tracks the manager, engineers, and interns working on a project. This project is looking to make creating such a site, easy, clean, and fast. I learned a lot about inquirer, and utilizing data to inject into html in this project and I'm very pleased with the result.
 
 ## Table of Contents
